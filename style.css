@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Batak:regular);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "noto sans batak";
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+.first_a {
+    color: rgb(103, 231, 225);
+}
+
+main {
+    margin: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .c1 {
+    margin-right: 60px;
+}
+
+main .c2 {
+    margin-left: 60px;
+}
+
+main div {
+    width: 420px;
+}
+
+footer {
+    position: sticky;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.load_more {
+    font-family: "noto sans batak";
+    padding: 30px 60px;
+    color: rgb(107, 107, 107);
+}
+
+.LIFESTYLE {
+    color: rgb(184, 184, 184);
+}
+
+.PHOTODAIRY {
+    color: rgb(184, 184, 184);
+}
+
+.txt {
+    color: gray;
+    font-size: 13px;
+}
+
+h2 {
+    color: gray;
+}
